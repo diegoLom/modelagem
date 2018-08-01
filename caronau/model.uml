@@ -56,4 +56,17 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AdiG5JUrEeiyUKy312hnGA" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NIiyMJUxEeilrvgG6Fk_AQ" name="Subject" visibility="public">
+    <ownedAttribute xmi:id="_lrsX4JUxEeilrvgG6Fk_AQ" name="ObservableCollection" visibility="public" type="_rJby8JUxEeilrvgG6Fk_AQ" isUnique="false">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lrsX4ZUxEeilrvgG6Fk_AQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lrsX4pUxEeilrvgG6Fk_AQ" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_P4tzwJUxEeilrvgG6Fk_AQ" name="add"/>
+    <ownedOperation xmi:id="_UmfKcJUxEeilrvgG6Fk_AQ" name="remove"/>
+    <ownedOperation xmi:id="_WqxWYJUxEeilrvgG6Fk_AQ" name="notify"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rJby8JUxEeilrvgG6Fk_AQ" name="Collection "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z8EtQJUxEeilrvgG6Fk_AQ" name="Observer" visibility="public">
+    <ownedOperation xmi:id="_H1lOUJUyEeilrvgG6Fk_AQ" name="notify"/>
+  </packagedElement>
 </uml:Model>
