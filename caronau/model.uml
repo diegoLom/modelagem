@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_SM8fIJOPEeiQtfMr3HHO-g" name="NewModel">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nnU9EJOPEeiQtfMr3HHO-g" name="Procurar Objetos"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tQ_7UJOPEeiQtfMr3HHO-g" name="Procurar Viagem">
+    <generalization xmi:id="_HL4wAJOQEeiQtfMr3HHO-g" general="_nnU9EJOPEeiQtfMr3HHO-g"/>
+    <extend xmi:id="_UNqHwJOREeiQtfMr3HHO-g" extendedCase="_OSH9cJOREeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_usPKQJOPEeiQtfMr3HHO-g" name="Procurar Pessoas">
+    <generalization xmi:id="_FmTSQJOQEeiQtfMr3HHO-g" general="_nnU9EJOPEeiQtfMr3HHO-g"/>
+    <extend xmi:id="_S7ANEJOREeiQtfMr3HHO-g" extendedCase="_En0bUJOREeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OsPjEJOQEeiQtfMr3HHO-g" name="Manter viagem"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_a-D6AJOQEeiQtfMr3HHO-g" name="Caroneiro">
+    <eAnnotations xmi:id="_a-FIIJOQEeiQtfMr3HHO-g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_a-FvMJOQEeiQtfMr3HHO-g" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fx_jEJOQEeiQtfMr3HHO-g" memberEnd="_fyQBwJOQEeiQtfMr3HHO-g _fyRP4JOQEeiQtfMr3HHO-g">
+    <ownedEnd xmi:id="_fyQBwJOQEeiQtfMr3HHO-g" type="_nnU9EJOPEeiQtfMr3HHO-g" association="_fx_jEJOQEeiQtfMr3HHO-g"/>
+    <ownedEnd xmi:id="_fyRP4JOQEeiQtfMr3HHO-g" type="_a-D6AJOQEeiQtfMr3HHO-g" association="_fx_jEJOQEeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hjnRsJOQEeiQtfMr3HHO-g" memberEnd="_hjn4wJOQEeiQtfMr3HHO-g _hjof0JOQEeiQtfMr3HHO-g">
+    <ownedEnd xmi:id="_hjn4wJOQEeiQtfMr3HHO-g" type="_OsPjEJOQEeiQtfMr3HHO-g" association="_hjnRsJOQEeiQtfMr3HHO-g"/>
+    <ownedEnd xmi:id="_hjof0JOQEeiQtfMr3HHO-g" type="_a-D6AJOQEeiQtfMr3HHO-g" association="_hjnRsJOQEeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_En0bUJOREeiQtfMr3HHO-g" name="Detalhar Pessoa">
+    <generalization xmi:id="_hzGpwJOREeiQtfMr3HHO-g" general="_YOpQ8JOREeiQtfMr3HHO-g"/>
+    <include xmi:id="_6uESgJOREeiQtfMr3HHO-g" addition="_uXxrQJOREeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OSH9cJOREeiQtfMr3HHO-g" name="Detalhar Viagem">
+    <generalization xmi:id="_hHoq4JOREeiQtfMr3HHO-g" general="_YOpQ8JOREeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOpQ8JOREeiQtfMr3HHO-g" name="Detalhar"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_n5xtEJOREeiQtfMr3HHO-g" name="Actor2"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_p07yMJOREeiQtfMr3HHO-g" name="Sistem"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_uXxrQJOREeiQtfMr3HHO-g" name="Verificar Empregabilidade"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-LxIcJOREeiQtfMr3HHO-g" memberEnd="_-LxIcZOREeiQtfMr3HHO-g _-LxIcpOREeiQtfMr3HHO-g">
+    <ownedEnd xmi:id="_-LxIcZOREeiQtfMr3HHO-g" type="_p07yMJOREeiQtfMr3HHO-g" association="_-LxIcJOREeiQtfMr3HHO-g"/>
+    <ownedEnd xmi:id="_-LxIcpOREeiQtfMr3HHO-g" type="_uXxrQJOREeiQtfMr3HHO-g" association="_-LxIcJOREeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WLuhgJOSEeiQtfMr3HHO-g" name="Viagem" visibility="public"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ys4PoJOSEeiQtfMr3HHO-g" name="Pessoa" visibility="private">
+    <ownedAttribute xmi:id="_7gCaoJOUEeiQtfMr3HHO-g" name="nome" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7gE24JOUEeiQtfMr3HHO-g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7gE24ZOUEeiQtfMr3HHO-g" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_AdYV4JUrEeiyUKy312hnGA" name="AssociationClass1" memberEnd="_AdYV4ZUrEeiyUKy312hnGA _AdiG4pUrEeiyUKy312hnGA" navigableOwnedEnd="_AdYV4ZUrEeiyUKy312hnGA _AdiG4pUrEeiyUKy312hnGA">
+    <ownedEnd xmi:id="_AdYV4ZUrEeiyUKy312hnGA" name="viagems" type="_WLuhgJOSEeiQtfMr3HHO-g" association="_AdYV4JUrEeiyUKy312hnGA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AdiG4JUrEeiyUKy312hnGA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AdiG4ZUrEeiyUKy312hnGA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_AdiG4pUrEeiyUKy312hnGA" name="pessoas" type="_Ys4PoJOSEeiQtfMr3HHO-g" association="_AdYV4JUrEeiyUKy312hnGA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AdiG45UrEeiyUKy312hnGA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AdiG5JUrEeiyUKy312hnGA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
