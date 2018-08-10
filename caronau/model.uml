@@ -69,4 +69,8 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_z8EtQJUxEeilrvgG6Fk_AQ" name="Observer" visibility="public">
     <ownedOperation xmi:id="_H1lOUJUyEeilrvgG6Fk_AQ" name="notify"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_priFoJxEEeiAMZ9lE9PRjA" memberEnd="_psIikJxEEeiAMZ9lE9PRjA _psKXwJxEEeiAMZ9lE9PRjA">
+    <ownedEnd xmi:id="_psIikJxEEeiAMZ9lE9PRjA" type="_uXxrQJOREeiQtfMr3HHO-g" association="_priFoJxEEeiAMZ9lE9PRjA"/>
+    <ownedEnd xmi:id="_psKXwJxEEeiAMZ9lE9PRjA" type="_OsPjEJOQEeiQtfMr3HHO-g" association="_priFoJxEEeiAMZ9lE9PRjA"/>
+  </packagedElement>
 </uml:Model>
