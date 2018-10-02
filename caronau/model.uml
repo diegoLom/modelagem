@@ -38,15 +38,63 @@
     <ownedEnd xmi:id="_-LxIcZOREeiQtfMr3HHO-g" type="_p07yMJOREeiQtfMr3HHO-g" association="_-LxIcJOREeiQtfMr3HHO-g"/>
     <ownedEnd xmi:id="_-LxIcpOREeiQtfMr3HHO-g" type="_uXxrQJOREeiQtfMr3HHO-g" association="_-LxIcJOREeiQtfMr3HHO-g"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_WLuhgJOSEeiQtfMr3HHO-g" name="Viagem" visibility="public"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_Ys4PoJOSEeiQtfMr3HHO-g" name="Pessoa" visibility="private">
-    <ownedAttribute xmi:id="_7gCaoJOUEeiQtfMr3HHO-g" name="nome" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7gE24JOUEeiQtfMr3HHO-g"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7gE24ZOUEeiQtfMr3HHO-g" value="1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WLuhgJOSEeiQtfMr3HHO-g" name="Viagem" visibility="public">
+    <ownedAttribute xmi:id="_ZWgQUMZnEeiHrq8ifKgSNw" name="destino" visibility="private" type="_28kkAMZsEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qaU9sMZnEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qaVkwMZnEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ZYplYMZnEeiHrq8ifKgSNw" name="horarioprevisto" visibility="private" type="_HN3cgMZSEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sN-FkMZnEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sN-soMZnEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_WQ1RIMZtEeiHrq8ifKgSNw" name="custo" visibility="private" type="_dDEZ8MZtEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WQ1RIcZtEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WQ1RIsZtEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_gkDNYMZtEeiHrq8ifKgSNw" name="status" visibility="private" type="_jjuDgMZtEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gkDNYcZtEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gkDNYsZtEeiHrq8ifKgSNw" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_AdYV4JUrEeiyUKy312hnGA" name="AssociationClass1" memberEnd="_AdYV4ZUrEeiyUKy312hnGA _AdiG4pUrEeiyUKy312hnGA" navigableOwnedEnd="_AdYV4ZUrEeiyUKy312hnGA _AdiG4pUrEeiyUKy312hnGA">
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ys4PoJOSEeiQtfMr3HHO-g" name="Pessoa" visibility="public">
+    <ownedAttribute xmi:id="_7gCaoJOUEeiQtfMr3HHO-g" name="nome" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7gE24JOUEeiQtfMr3HHO-g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7gE24ZOUEeiQtfMr3HHO-g" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__EVJkMZREeiHrq8ifKgSNw" name="sobrenome" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cdy_wMZSEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cdzm0MZSEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__GTfgMZREeiHrq8ifKgSNw" name="dtNascimento" visibility="private" type="_HN3cgMZSEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HMEswMZSEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HMEswcZSEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__IIrgMZREeiHrq8ifKgSNw" name="foto" visibility="private" type="_V72T4MZSEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TFl4cMZSEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TFmfgMZSEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="__Jv1EMZREeiHrq8ifKgSNw" name="descricao" visibility="private"/>
+    <ownedAttribute xmi:id="__LRfEMZREeiHrq8ifKgSNw" name="empresa" visibility="private" type="_Z3Qv0MZuEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hHXxIMZSEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hHYYMMZSEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qT2u0MZSEeiHrq8ifKgSNw" name="sexo" visibility="private" type="_5G9GAMZuEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qT2u0cZSEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qT2u0sZSEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_AdYV4JUrEeiyUKy312hnGA" name="ViagemPessoa" memberEnd="_AdYV4ZUrEeiyUKy312hnGA _AdiG4pUrEeiyUKy312hnGA" navigableOwnedEnd="_AdYV4ZUrEeiyUKy312hnGA _AdiG4pUrEeiyUKy312hnGA">
+    <ownedAttribute xmi:id="_Exa-gMZuEeiHrq8ifKgSNw" name="custo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ExblkMZuEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ExblkcZuEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_P0MIYMZuEeiHrq8ifKgSNw" name="encontrocarona" visibility="private" type="_28kkAMZsEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_P0MIYcZuEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P0MIYsZuEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
     <ownedEnd xmi:id="_AdYV4ZUrEeiyUKy312hnGA" name="viagems" type="_WLuhgJOSEeiQtfMr3HHO-g" association="_AdYV4JUrEeiyUKy312hnGA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AdiG4JUrEeiyUKy312hnGA"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AdiG4ZUrEeiyUKy312hnGA" value="*"/>
@@ -72,5 +120,51 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_priFoJxEEeiAMZ9lE9PRjA" memberEnd="_psIikJxEEeiAMZ9lE9PRjA _psKXwJxEEeiAMZ9lE9PRjA">
     <ownedEnd xmi:id="_psIikJxEEeiAMZ9lE9PRjA" type="_uXxrQJOREeiQtfMr3HHO-g" association="_priFoJxEEeiAMZ9lE9PRjA"/>
     <ownedEnd xmi:id="_psKXwJxEEeiAMZ9lE9PRjA" type="_OsPjEJOQEeiQtfMr3HHO-g" association="_priFoJxEEeiAMZ9lE9PRjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ijj3wMZREeiHrq8ifKgSNw" client="_WLuhgJOSEeiQtfMr3HHO-g" supplier="_NIiyMJUxEeilrvgG6Fk_AQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HN3cgMZSEeiHrq8ifKgSNw" name="Timestamp "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_THHicMZSEeiHrq8ifKgSNw" name="new byte[] "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_V72T4MZSEeiHrq8ifKgSNw" name="byte[]  "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jwqHkMZSEeiHrq8ifKgSNw" name="Empresa  "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_t-VcgMZSEeiHrq8ifKgSNw" name="Sexo   "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_28kkAMZsEeiHrq8ifKgSNw" name="LocalMap "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dDEZ8MZtEeiHrq8ifKgSNw" name="BigDecimal  "/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jjuDgMZtEeiHrq8ifKgSNw" name="Status  "/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_z4RQEMZtEeiHrq8ifKgSNw" client="_AdYV4JUrEeiyUKy312hnGA" supplier="_z8EtQJUxEeilrvgG6Fk_AQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z3Qv0MZuEeiHrq8ifKgSNw" name="Empresa" visibility="public">
+    <ownedAttribute xmi:id="_fP6PgMZuEeiHrq8ifKgSNw" name="razaosocial" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fP6PgcZuEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fP62kMZuEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_h_2nkMZuEeiHrq8ifKgSNw" name="cnpj" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h_2nkcZuEeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h_2nksZuEeiHrq8ifKgSNw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_5G9GAMZuEeiHrq8ifKgSNw" name="Sexo" visibility="public">
+    <ownedLiteral xmi:id="_5r6NMMZuEeiHrq8ifKgSNw" name="masculino"/>
+    <ownedLiteral xmi:id="_WBlCQMZvEeiHrq8ifKgSNw" name="feminino"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_x0d2MMZ2EeiHrq8ifKgSNw" name="empresasToPessoas" memberEnd="_x0frYMZ2EeiHrq8ifKgSNw _x0g5gsZ2EeiHrq8ifKgSNw" navigableOwnedEnd="_x0g5gsZ2EeiHrq8ifKgSNw">
+    <ownedEnd xmi:id="_x0frYMZ2EeiHrq8ifKgSNw" name="empresas" type="_Z3Qv0MZuEeiHrq8ifKgSNw" association="_x0d2MMZ2EeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x0g5gMZ2EeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x0g5gcZ2EeiHrq8ifKgSNw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_x0g5gsZ2EeiHrq8ifKgSNw" name="pessoas" type="_Ys4PoJOSEeiQtfMr3HHO-g" aggregation="shared" association="_x0d2MMZ2EeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_x0g5g8Z2EeiHrq8ifKgSNw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_x0hgkMZ2EeiHrq8ifKgSNw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dlRRoMZ5EeiHrq8ifKgSNw" memberEnd="_dlR4sMZ5EeiHrq8ifKgSNw _dlSfwMZ5EeiHrq8ifKgSNw" navigableOwnedEnd="_dlSfwMZ5EeiHrq8ifKgSNw">
+    <ownedEnd xmi:id="_dlR4sMZ5EeiHrq8ifKgSNw" name="sexos" type="_5G9GAMZuEeiHrq8ifKgSNw" association="_dlRRoMZ5EeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dlR4scZ5EeiHrq8ifKgSNw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dlR4ssZ5EeiHrq8ifKgSNw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_dlSfwMZ5EeiHrq8ifKgSNw" name="pessoas" type="_Ys4PoJOSEeiQtfMr3HHO-g" aggregation="composite" association="_dlRRoMZ5EeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dlSfwcZ5EeiHrq8ifKgSNw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dlTG0MZ5EeiHrq8ifKgSNw" value="*"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
