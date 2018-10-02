@@ -167,4 +167,20 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dlTG0MZ5EeiHrq8ifKgSNw" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_9SEg8MaBEeiHrq8ifKgSNw" name="Status" visibility="public">
+    <ownedLiteral xmi:id="_-PZr4MaBEeiHrq8ifKgSNw" name="Aberto"/>
+    <ownedLiteral xmi:id="_-bPvgMaBEeiHrq8ifKgSNw" name="EmLotacao"/>
+    <ownedLiteral xmi:id="_-dJM8MaBEeiHrq8ifKgSNw" name="Andameto"/>
+    <ownedLiteral xmi:id="_-e9x4MaBEeiHrq8ifKgSNw" name="Finalizada"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JGtMoMaCEeiHrq8ifKgSNw" memberEnd="_JGtzsMaCEeiHrq8ifKgSNw _JGvB0caCEeiHrq8ifKgSNw" navigableOwnedEnd="_JGvB0caCEeiHrq8ifKgSNw">
+    <ownedEnd xmi:id="_JGtzsMaCEeiHrq8ifKgSNw" name="statuss" type="_9SEg8MaBEeiHrq8ifKgSNw" association="_JGtMoMaCEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JGuawMaCEeiHrq8ifKgSNw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JGvB0MaCEeiHrq8ifKgSNw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_JGvB0caCEeiHrq8ifKgSNw" name="viagems" type="_WLuhgJOSEeiQtfMr3HHO-g" aggregation="composite" association="_JGtMoMaCEeiHrq8ifKgSNw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JGvo4MaCEeiHrq8ifKgSNw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JGvo4caCEeiHrq8ifKgSNw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
