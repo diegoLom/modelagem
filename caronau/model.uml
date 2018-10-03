@@ -9,8 +9,11 @@
     <generalization xmi:id="_FmTSQJOQEeiQtfMr3HHO-g" general="_nnU9EJOPEeiQtfMr3HHO-g"/>
     <extend xmi:id="_S7ANEJOREeiQtfMr3HHO-g" extendedCase="_En0bUJOREeiQtfMr3HHO-g"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_OsPjEJOQEeiQtfMr3HHO-g" name="Manter viagem"/>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_a-D6AJOQEeiQtfMr3HHO-g" name="Caroneiro">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OsPjEJOQEeiQtfMr3HHO-g" name="Manter viagem">
+    <include xmi:id="_TspBYMcCEeijoeoianI0gw" addition="_LUXu4McCEeijoeoianI0gw"/>
+    <include xmi:id="_LeGCEMdDEeijoeoianI0gw" addition="_HHvs4MdDEeijoeoianI0gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_a-D6AJOQEeiQtfMr3HHO-g" name="Pessoa">
     <eAnnotations xmi:id="_a-FIIJOQEeiQtfMr3HHO-g" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <details xmi:id="_a-FvMJOQEeiQtfMr3HHO-g" key="Human"/>
     </eAnnotations>
@@ -18,10 +21,6 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_fx_jEJOQEeiQtfMr3HHO-g" memberEnd="_fyQBwJOQEeiQtfMr3HHO-g _fyRP4JOQEeiQtfMr3HHO-g">
     <ownedEnd xmi:id="_fyQBwJOQEeiQtfMr3HHO-g" type="_nnU9EJOPEeiQtfMr3HHO-g" association="_fx_jEJOQEeiQtfMr3HHO-g"/>
     <ownedEnd xmi:id="_fyRP4JOQEeiQtfMr3HHO-g" type="_a-D6AJOQEeiQtfMr3HHO-g" association="_fx_jEJOQEeiQtfMr3HHO-g"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_hjnRsJOQEeiQtfMr3HHO-g" memberEnd="_hjn4wJOQEeiQtfMr3HHO-g _hjof0JOQEeiQtfMr3HHO-g">
-    <ownedEnd xmi:id="_hjn4wJOQEeiQtfMr3HHO-g" type="_OsPjEJOQEeiQtfMr3HHO-g" association="_hjnRsJOQEeiQtfMr3HHO-g"/>
-    <ownedEnd xmi:id="_hjof0JOQEeiQtfMr3HHO-g" type="_a-D6AJOQEeiQtfMr3HHO-g" association="_hjnRsJOQEeiQtfMr3HHO-g"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_En0bUJOREeiQtfMr3HHO-g" name="Detalhar Pessoa">
     <generalization xmi:id="_hzGpwJOREeiQtfMr3HHO-g" general="_YOpQ8JOREeiQtfMr3HHO-g"/>
@@ -117,10 +116,6 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_z8EtQJUxEeilrvgG6Fk_AQ" name="Observer" visibility="public">
     <ownedOperation xmi:id="_H1lOUJUyEeilrvgG6Fk_AQ" name="notify"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_priFoJxEEeiAMZ9lE9PRjA" memberEnd="_psIikJxEEeiAMZ9lE9PRjA _psKXwJxEEeiAMZ9lE9PRjA">
-    <ownedEnd xmi:id="_psIikJxEEeiAMZ9lE9PRjA" type="_uXxrQJOREeiQtfMr3HHO-g" association="_priFoJxEEeiAMZ9lE9PRjA"/>
-    <ownedEnd xmi:id="_psKXwJxEEeiAMZ9lE9PRjA" type="_OsPjEJOQEeiQtfMr3HHO-g" association="_priFoJxEEeiAMZ9lE9PRjA"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_ijj3wMZREeiHrq8ifKgSNw" client="_WLuhgJOSEeiQtfMr3HHO-g" supplier="_NIiyMJUxEeilrvgG6Fk_AQ"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_HN3cgMZSEeiHrq8ifKgSNw" name="Timestamp "/>
   <packagedElement xmi:type="uml:Class" xmi:id="_THHicMZSEeiHrq8ifKgSNw" name="new byte[] "/>
@@ -182,5 +177,27 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JGvo4MaCEeiHrq8ifKgSNw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JGvo4caCEeiHrq8ifKgSNw" value="*"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LUXu4McCEeijoeoianI0gw" name="Calcular Custo"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SlImwMcCEeijoeoianI0gw" memberEnd="_SlJN0McCEeijoeoianI0gw _SlKb8McCEeijoeoianI0gw">
+    <ownedEnd xmi:id="_SlJN0McCEeijoeoianI0gw" type="_p07yMJOREeiQtfMr3HHO-g" association="_SlImwMcCEeijoeoianI0gw"/>
+    <ownedEnd xmi:id="_SlKb8McCEeijoeoianI0gw" type="_LUXu4McCEeijoeoianI0gw" association="_SlImwMcCEeijoeoianI0gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sgDckMdCEeijoeoianI0gw" name="Motorista" visibility="public"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_3tXpkMdCEeijoeoianI0gw" client="_sgDckMdCEeijoeoianI0gw" supplier="_Ys4PoJOSEeiQtfMr3HHO-g"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HHvs4MdDEeijoeoianI0gw" name="Validar Cnh"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NMKGYMdDEeijoeoianI0gw" memberEnd="_NMKtcMdDEeijoeoianI0gw _NMLUgMdDEeijoeoianI0gw">
+    <ownedEnd xmi:id="_NMKtcMdDEeijoeoianI0gw" type="_p07yMJOREeiQtfMr3HHO-g" association="_NMKGYMdDEeijoeoianI0gw"/>
+    <ownedEnd xmi:id="_NMLUgMdDEeijoeoianI0gw" type="_HHvs4MdDEeijoeoianI0gw" association="_NMKGYMdDEeijoeoianI0gw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_VY_k8MdDEeijoeoianI0gw" name="Motorista">
+    <eAnnotations xmi:id="_VZAzEMdDEeijoeoianI0gw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_VZAzEcdDEeijoeoianI0gw" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_2_kS8MdDEeijoeoianI0gw" general="_a-D6AJOQEeiQtfMr3HHO-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4cot4MdDEeijoeoianI0gw" memberEnd="_4cpU8MdDEeijoeoianI0gw _4cpU8cdDEeijoeoianI0gw">
+    <ownedEnd xmi:id="_4cpU8MdDEeijoeoianI0gw" type="_VY_k8MdDEeijoeoianI0gw" association="_4cot4MdDEeijoeoianI0gw"/>
+    <ownedEnd xmi:id="_4cpU8cdDEeijoeoianI0gw" type="_OsPjEJOQEeiQtfMr3HHO-g" association="_4cot4MdDEeijoeoianI0gw"/>
   </packagedElement>
 </uml:Model>
